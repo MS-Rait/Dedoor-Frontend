@@ -34,8 +34,8 @@ jobs:
     - name: push to server
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env: 
-        FTP_SERVER: server02.he.dev.rait.systems
-        FTP_USERNAME: tanzschule
+        FTP_SERVER: rait.systems
+        FTP_USERNAME: frta01
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         REMOTE_DIR: httpdocs
         LOCAL_DIR: dist
